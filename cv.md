@@ -63,8 +63,8 @@ Nizhny Novgorod State University, Diploma, Language Interpretation in the Field 
 
 - HTML and CSS Tutorials on the w3schools (completed)
 - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
-- Coursera Python courses
-![Coursera Python courses](/rsschool-cv/images/coursera-courses.jpg)
+- Coursera Python courses  
+![Coursera Python courses](images/coursera-courses.jpg)
 
 ***
 
