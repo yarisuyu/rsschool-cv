@@ -2,129 +2,126 @@
 
 <html lang="en">
   <head>
-	<title>Elena Oblomova CV</title>
-	<meta charset="UTF-8">
+    <title>Elena Oblomova CV</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
   </head>
-  
+
   <body>
-	<div class="content">
-		<header class="header">
-			<h1>Elena Oblomova</h1>
+    <div class="content">
+      <header class="header">
+        <h1>Elena Oblomova</h1>
+        <h2>Frontend Developer</h2>
+        <hr>
+      </header>
 
-			<h2>Frontend Developer</h2>
+      <main class="main-content">
+        <section>
+          <h3>Contact information:</h3>
+          <div>
+            <p><strong>Phone:</strong> +7 952 216 80 62</p>
+            <p><strong>E-mail:</strong> lisinaeg@gmail.com</p>
+            <p><strong>Telegram:</strong> @eoblomova</p>
+            <p><a href="https://www.linkedin.com/in/elena-oblomova-3084b846/" target="_blank">LinkedIn</a></p>
+          </div>
+        </section>
 
-			<hr>
-		</header>
+        <hr>
 
-		<main class="main-content">
-			<section>
-				<h3>Contact information:</h3>
+        <section>
+          <h3>Briefly About Myself:</h3>
+          <div>
+            <p>Having started my career as a C++ Software Developer, I kept exploring my professional interests so
+	           that I could apply my skills and experience best. Finally I found out that I'm highly motivated when
+               I immediately see the results of my efforts.</p>
+            <p>Meanwhile I gained the experience of working for an outsource project for a large international company
+               maintaining verified processes (Mera company, 2010-2014) as well as a company's rapidly developing own
+               project (MFI Soft company, 2014-2019) with numerous additional features and investigation on the problems my team never faced before.</p>
+            <p>Finally I made the decision to switch to web development and start learning frontend technologies and
+               frameworks. While studying I worked remotely in Garda Technologies (2019-2022) so that I could have more practical experience.</p>
+          </div>
+        </section>
 
-				<div>
-					<p><strong>Phone:</strong> +7 952 216 80 62</p>
-					<p><strong>E-mail:</strong> lisinaeg@gmail.com</p>
-					<p><strong>Telegram:</strong> @eoblomova</p>
-					<p><a href="https://www.linkedin.com/in/elena-oblomova-3084b846/" target="_blank">LinkedIn</a></p>
-				</div>
-			</section>
-			
-			<hr>
+        <hr>
 
-			<section>
-				<h3>Briefly About Myself:</h3>
+        <section>
+          <h3>Skills and Proficiency:</h3>
+          <ul>
+            <li>HTML5, CSS3</li>
+            <li>JavaScript, React JS, Redux</li>
+            <li>Git, GitHub, Svn</li>
+            <li>VS Code, Visual Studio, eclipse</li>
+          </ul>
+        </section>
 
-				<div>
-					<p>Having started my career as a C++ Software Developer, I kept exploring my professional interests so that I could apply my skills and experience best. Finally I found out that I'm highly motivated when I immediately see the results of my efforts.</p>
+        <hr>
 
-					<p>Meanwhile I gained the experience of working for an outsource project for a large international company maintaining verified processes (Mera company, 2010-2014) as well as a company's rapidly developing own project (MFI Soft company, 2014-2019) with numerous additional features and investigation on the problems my team never faced before.</p>
-					
-					<p>Finally I made the decision to switch to web development and start learning frontend technologies and frameworks. While studying I worked remotely in Garda Technologies (2019-2022) so that I could have more practical experience.</p>
-				</div>
-			</section>
-			
-			<hr>
+        <section>
+          <h3>Code example:</h3>
+          <strong>Peak array index KATA from CODEWARS:</strong>
+		  <em>Given an array of ints, return the index such that the sum of the elements to the right of that index
+              equals the sum of the elements to the left of that index. If there is no such index, return -1.
+              If there is more than one such index, return the left-most index.*</em>
 
-			<section>
-				<h3>Skills and Proficiency:</h3>
+          <pre>
+            function peak(arr) {
 
-				<ul>
-					<li>HTML5, CSS3</li>
-					<li>JavaScript, React JS, Redux</li>
-					<li>Git, GitHub, Svn</li>
-					<li>VS Code, Visual Studio, eclipse</li>
-				</ul>
-			</section>
-			
-			<hr>
+              for (let i = 1; i &lt; arr.length - 1; i++) {
+                let leftSum = arr.slice(0, i).reduce((accum, currentValue) =&gt; accum + currentValue);
+                let rightSum = arr.slice(i + 1).reduce((accum, currentValue) =&gt; accum + currentValue);
+                if (leftSum === rightSum) {
+                  return i;
+                }
+              }
+              return -1;
+            }
+          </pre>
+        </section>
 
-			<section>
-				<h3>Code example:</h3>
+        <hr>
 
-				<strong>Peak array index KATA from CODEWARS:</strong> <em>Given an array of ints, return the index such that the sum of the elements to the right of that index equals the sum of the elements to the left of that index. If there is no such index, return -1. If there is more than one such index, return the left-most index.*</em>
+        <section>
+          <h3>Education:</h3>
+          <div>
+            <p>Nizhny Novgorod State University, Diploma, Applied Mathematics and Computer Science (2006 - 2011)</p>
+            <p>Nizhny Novgorod State University, Diploma, Language Interpretation in the Field of Professional Communication (2008 - 2011)</p>
+          </div>
+        </section>
 
-				<pre>
-				function peak(arr) {
+        <hr>
 
-				  for (let i = 1; i &lt; arr.length - 1; i++) {
-					let leftSum = arr.slice(0, i).reduce((accum, currentValue) => accum + currentValue);
-					let rightSum = arr.slice(i + 1).reduce((accum, currentValue) => accum + currentValue);
-					if (leftSum === rightSum) {
-					  return i;
-					}
-				  }
-				  return -1;
-				}
-				</pre>
-			</section>
-			
-			<hr>
+        <section>
+          <h3>Courses:</h3>
+          <ul>
+            <li>HTML and CSS Tutorials on the w3schools (completed)</li>
+            <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+            <li>Coursera Python courses</li>
+          </ul>
+          <img src="images/coursera-courses.jpg" alt="Coursera Python courses" width="375" height="300">
+        </section>
 
-			<section>
-				<h3>Education:</h3>
+        <hr>
 
-				<div>
-					<p>Nizhny Novgorod State University, Diploma, Applied Mathematics and Computer Science (2006 - 2011)</p>
-					<p>Nizhny Novgorod State University, Diploma, Language Interpretation in the Field of Professional Communication (2008 - 2011)</p>
-				</div>
-			</section>
-			
-			<hr>
-			
-			<section>
-				<h3>Courses:</h3>
+        <section>
+          <h3>Languages:</h3>
+          <ul>
+            <li>English - Upper Intermediate (See Education)</li>
+            <li>Russian (native)</li>
+          </ul>
+        </section>
+      </main>
 
-				<ul>
-					<li>HTML and CSS Tutorials on the w3schools (completed)</li>
-					<li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
-					<li>Coursera Python courses</li>
-				</ul>
-				<img src="images/coursera-courses.jpg" alt="Coursera Python courses" width="375" height="300">
-			</section>
-			
-			<hr>
-
-			<section>
-				<h3>Languages:</h3>
-
-				<ul>
-					<li>English - Upper Intermediate (See Education)</li>
-					<li>Russian (native)</li>
-				</ul>
-			</section>
-		</main>
-		
-		<footer class="footer">
-			<p>
-				<a href="https://github.com/yarisuyu" target="_blank">Visit my GitHub</a>
-			</p>
-			<p>
-				<script> document.write(new Date().toLocaleDateString()); </script>
-			</p>
-			<a href="#" target="_blank">
-				<img style="height: 30px;" src="images/logo-rsschool3.png" alt="Rolling Scopes School Logo">
-			</a>
-		</footer>
-	</div>
+      <footer class="footer">
+        <p>
+          <a href="https://github.com/yarisuyu" target="_blank">Visit my GitHub</a>
+        </p>
+        <p>
+          <script> document.write(new Date().toLocaleDateString()); </script>
+        </p>
+        <a href="https://rs.school/" target="_blank">
+          <img style="height: 30px;" src="images/logo-rsschool3.png" alt="Rolling Scopes School Logo">
+        </a>
+      </footer>
+    </div>
   </body>
 </html>
