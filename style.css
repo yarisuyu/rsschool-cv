@@ -1,0 +1,61 @@
+/****************************************************************************
+ *
+ * Author: Elena Oblomova
+ *
+*/
+
+body {
+	background-color: darkcyan;
+}
+
+.content {
+	margin: 0px auto;
+	width: 80%;
+	background: white;
+	border-radius: 8px;
+	box-shadow: 8px 8px 24px black;
+}
+
+.header {
+	position: sticky;
+	top: 0;
+	background-color: white;
+	padding: 12px 24px;
+	margin: 0px auto;
+}
+
+.main-content {
+	padding: 24px;
+}
+
+.footer {
+	padding: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background: #b9d8d7;
+}
+
+hr {
+	border: lightgray solid 2px;
+}
+
+a:link {
+	color: darkcyan;
+	text-decoration: none;
+}
+
+a:visited {
+	color: darkmagenta;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a:active {
+	color: darkmagenta;
+	font-weight: bold;
+	text-decoration: underline;
+}
