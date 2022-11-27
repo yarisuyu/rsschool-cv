@@ -30,6 +30,10 @@ body {
 
 .footer {
 	padding: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background: #b9d8d7;
 }
 
 hr {
@@ -37,12 +41,12 @@ hr {
 }
 
 a:link {
-	color: magenta;
+	color: darkcyan;
 	text-decoration: none;
 }
 
 a:visited {
-	color: darkcyan;
+	color: darkmagenta;
 }
 
 a:hover {
